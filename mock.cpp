@@ -123,6 +123,11 @@ int Account::findByType(vector<Account> accounts, AccountType type)
 int Account::countByType(vector<Account> accounts, AccountType type)
 {
     int result=0;
+    for (int i = 0; i < accounts.size(); i++){
+        if(type == accounts[i].getType()){
+            result++;
+        }
+    }
 		// YOUR CODE HERE
     return result;
 }
@@ -132,7 +137,25 @@ int Account::countByType(vector<Account> accounts, AccountType type)
 int Account::largestBalance(vector<Account> accounts)
 {
 		// YOUR CODE HERE
-    return -1;  
+
+    if(accounts.empty()){
+        return -1;
+    }
+
+    int maxI = 0;
+    double maxBalance = accounts[0].getBalance();
+
+    for (int i = 1; i < accounts.size(); i++){
+        if(accounts[i].getBalance() > maxBalance){
+            maxI = i;
+            maxBalance = accounts[i].getBalance();
+        
+
+    }
+    }
+    return maxI;
+
+      
 }
 
 // EXERCISE #4: Returns the average balance of all the Account's of the parameter type
