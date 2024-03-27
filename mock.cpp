@@ -210,7 +210,13 @@ void Account::removeFirstNegative(vector<Account> &accounts)
 // such Account's exist in the pameter vector.  Leaves vector unchanged otherwise.
 void Account::removeAllNegative(vector<Account> &accounts)
 {
-		
+		for (auto it = accounts.begin(); it != accounts.end();){
+            if ((*it).getBalance()< 0){
+                it = accounts.erase(it);
+            } else {
+                it++;
+            }
+        }
 }
 
 // EXERCISE #8: Returns a new vector containing the UNION of all the Account's
