@@ -163,9 +163,19 @@ int Account::largestBalance(vector<Account> accounts)
 // of that type.
 double Account::averageBalance(vector<Account> accounts, AccountType type)
 {
-		// YOUR CODE HERE
-    return -1;
-
+    int count = 0;
+    double total = 0;
+    
+    for (int i = 0; i < accounts.size(); i++){
+        if (accounts[i].getType() == type){
+            total += accounts[i].getBalance();
+            count++;
+        }
+    }
+    if (count == 0){
+        return -1;
+    }
+    return total/count;
 }
 
 // EXERCISE #5: Returns true if there are at least two Account's of the same type and
