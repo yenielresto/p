@@ -69,6 +69,7 @@ public:
     // EXERCISE #1: Return the position of the first occurence of an account of the given
     // type within the vector of Account's. Returns -1 if no such Account exists.
     static int findByType(vector<Account> accounts, AccountType type);
+      
 
     // EXERCISE #2: Returns de count of Account's of the parameter type that exist in the 
     // parameter vector.
@@ -109,6 +110,11 @@ public:
 int Account::findByType(vector<Account> accounts, AccountType type)
 {
 		// YOUR CODE HERE
+    for (int i = 0; i < accounts.size(); i++){
+        if (accounts[i].getType() == type){
+            return i;
+        }
+    }
     return -1;
 }
 
