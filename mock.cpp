@@ -182,7 +182,15 @@ double Account::averageBalance(vector<Account> accounts, AccountType type)
 // with tehe same account number within the parametter vector.
 int Account::hasDuplicates(vector<Account> accounts)
 {
-		// YOUR CODE HERE
+	for (int i = 0; i < accounts.size(); i++){
+        for (int j = i + 1; j < accounts.size(); j++){
+            if (accounts[i].getType() == accounts[j].getType() && accounts[i].getAccNo() == accounts[j].getAccNo()){
+                return true;
+            }
+        }
+    }
+
+    
     return false;
 }
 
@@ -190,14 +198,19 @@ int Account::hasDuplicates(vector<Account> accounts)
 // such an Account exists in the pameter vector.  Leaves vector unchanged otherwise.
 void Account::removeFirstNegative(vector<Account> &accounts)
 {
-		// YOUR CODE HERE
+		for (int i = 0; i < accounts.size(); i++){
+            if (accounts[i].getBalance()< 0){
+               accounts.erase(accounts.begin() + i);
+               return;
+            } 
+        }
 }
 
 // EXERCISE #7: Remove all ocurrences of Accounts with a negative balances if
 // such Account's exist in the pameter vector.  Leaves vector unchanged otherwise.
 void Account::removeAllNegative(vector<Account> &accounts)
 {
-		// YOUR CODE HERE
+		
 }
 
 // EXERCISE #8: Returns a new vector containing the UNION of all the Account's
