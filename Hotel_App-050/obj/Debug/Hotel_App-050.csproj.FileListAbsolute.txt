@@ -1,0 +1,23 @@
+C:\SICI3029-050-26\Hotel_App-050\bin\Debug\Hotel_App-050.exe.config
+C:\SICI3029-050-26\Hotel_App-050\bin\Debug\Hotel_App-050.exe
+C:\SICI3029-050-26\Hotel_App-050\bin\Debug\Hotel_App-050.pdb
+C:\SICI3029-050-26\Hotel_App-050\obj\Debug\Hotel_App-050.csproj.AssemblyReference.cache
+C:\SICI3029-050-26\Hotel_App-050\obj\Debug\Hotel_App_050.Form1.resources
+C:\SICI3029-050-26\Hotel_App-050\obj\Debug\Hotel_App_050.Properties.Resources.resources
+C:\SICI3029-050-26\Hotel_App-050\obj\Debug\Hotel_App-050.csproj.GenerateResource.cache
+C:\SICI3029-050-26\Hotel_App-050\obj\Debug\Hotel_App-050.csproj.CoreCompileInputs.cache
+C:\SICI3029-050-26\Hotel_App-050\obj\Debug\Hotel_App-050.exe
+C:\SICI3029-050-26\Hotel_App-050\obj\Debug\Hotel_App-050.pdb
+C:\SICI3029-050-26\Hotel_App-050\obj\Debug\Hotel_App-050.exe.config
+C:\Insight Files\Hotel_App-050-14SEPT26\Hotel_App-050\bin\Debug\Hotel_App-050.exe.config
+C:\Insight Files\Hotel_App-050-14SEPT26\Hotel_App-050\bin\Debug\Hotel_App-050.exe
+C:\Insight Files\Hotel_App-050-14SEPT26\Hotel_App-050\bin\Debug\Hotel_App-050.pdb
+C:\Insight Files\Hotel_App-050-14SEPT26\Hotel_App-050\obj\Debug\Hotel_App-050.csproj.AssemblyReference.cache
+C:\Insight Files\Hotel_App-050-14SEPT26\Hotel_App-050\obj\Debug\Hotel_App-050.exe.config
+C:\Insight Files\Hotel_App-050-14SEPT26\Hotel_App-050\obj\Debug\Hotel_App_050.Form1.resources
+C:\Insight Files\Hotel_App-050-14SEPT26\Hotel_App-050\obj\Debug\Hotel_App_050.Form2.resources
+C:\Insight Files\Hotel_App-050-14SEPT26\Hotel_App-050\obj\Debug\Hotel_App_050.Properties.Resources.resources
+C:\Insight Files\Hotel_App-050-14SEPT26\Hotel_App-050\obj\Debug\Hotel_App-050.csproj.GenerateResource.cache
+C:\Insight Files\Hotel_App-050-14SEPT26\Hotel_App-050\obj\Debug\Hotel_App-050.csproj.CoreCompileInputs.cache
+C:\Insight Files\Hotel_App-050-14SEPT26\Hotel_App-050\obj\Debug\Hotel_App-050.exe
+C:\Insight Files\Hotel_App-050-14SEPT26\Hotel_App-050\obj\Debug\Hotel_App-050.pdb
